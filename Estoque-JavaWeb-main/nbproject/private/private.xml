@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/web/Clientes/editarClienteAction.jsp</file>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/src/java/br/com/estoque/DTO/Usuarios.java</file>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/src/java/br/com/estoque/DAO/UsuarioDAO.java</file>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/src/java/br/com/estoque/DTO/Cliente.java</file>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/web/Login/loginAction.jsp</file>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/web/home.jsp</file>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/web/Login/cadastro.jsp</file>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/web/index.jsp</file>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/web/Clientes/listarClientes.jsp</file>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/src/java/br/com/estoque/DAO/UsuariosDAO.java</file>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/src/java/br/com/estoque/DTO/Usuario.java</file>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/web/Clientes/cadastrarClientesAction.jsp</file>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/src/java/br/com/site/check/login.java</file>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/src/java/br/com/estoque/DTO/Pessoa.java</file>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/src/java/br/com/estoque/DAO/ConexaoDAO.java</file>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/web/Login/cadastroAction.jsp</file>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/web/Produtos/frmRelatorio.jsp</file>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/src/java/br/com/estoque/DTO/Vendedor.java</file>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/src/java/br/com/estoque/DAO/ClienteDAO.java</file>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/web/Includes/head.jsp</file>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/web/Includes/navbar.jsp</file>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/web/Usuarios/listarUsuarios.jsp</file>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/src/java/br/com/estoque/DAO/VendedorDAO.java</file>
+            <file>file:/C:/Users/51127512021.2/Desktop/Matheus/Estoque-JavaWeb-main/Estoque-JavaWeb-main/src/java/br/com/estoque/DTO/Produto.java</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,35 @@
+CREATE TABLE produtos (
+id int not null AUTO_INCREMENT PRIMARY KEY,
+nome varchar (100),
+valor decimal(6,2),
+quantidade int,
+min_quantidade int
+);
+
+CREATE TABLE clientes (
+id int not null AUTO_INCREMENT PRIMARY KEY,
+nome varchar (100),
+email varchar (100),
+vip boolean
+);
+
+CREATE TABLE vendedores (
+id int not null AUTO_INCREMENT PRIMARY KEY,
+nome varchar (100),
+email varchar(100)
+);
+
+CREATE TABLE usuario (
+id int not null AUTO_INCREMENT PRIMARY KEY,
+nome varchar(100),
+email varchar(100),
+senha varchar(255) not null
+);
+
+CREATE TABLE usuarios (
+id int not null AUTO_INCREMENT PRIMARY KEY,
+nome varchar(100),
+email varchar(100),
+senha varchar(255) not null
+);
+

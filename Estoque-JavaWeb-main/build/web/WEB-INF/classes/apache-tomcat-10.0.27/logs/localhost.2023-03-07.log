@@ -1,0 +1,2678 @@
+07-Mar-2023 18:30:11.374 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+07-Mar-2023 18:30:11.374 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+07-Mar-2023 18:30:11.375 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3bb8aabc')
+07-Mar-2023 19:18:51.424 SEVERE [http-nio-8080-exec-36] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:401)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:369)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:560)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:499)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:994)
+		at org.apache.jsp.Login.login_jsp._jspService(login_jsp.java:119)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 19:18:51.425 SEVERE [http-nio-8080-exec-36] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found] with root cause
+	jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:401)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:369)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:560)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:499)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:994)
+		at org.apache.jsp.Login.login_jsp._jspService(login_jsp.java:119)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 19:19:07.905 SEVERE [http-nio-8080-exec-32] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:401)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:369)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:560)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:499)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:994)
+		at org.apache.jsp.Login.login_jsp._jspService(login_jsp.java:119)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 19:19:07.905 SEVERE [http-nio-8080-exec-32] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found] with root cause
+	jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:401)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:369)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:560)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:499)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:994)
+		at org.apache.jsp.Login.login_jsp._jspService(login_jsp.java:119)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 19:19:48.529 SEVERE [http-nio-8080-exec-34] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:401)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:369)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:560)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:499)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:994)
+		at org.apache.jsp.Login.login_jsp._jspService(login_jsp.java:124)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 19:19:48.529 SEVERE [http-nio-8080-exec-34] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found] with root cause
+	jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:401)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:369)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:560)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:499)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:994)
+		at org.apache.jsp.Login.login_jsp._jspService(login_jsp.java:124)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 19:22:06.231 SEVERE [http-nio-8080-exec-33] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:401)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:369)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:560)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:499)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:994)
+		at org.apache.jsp.Login.login_jsp._jspService(login_jsp.java:124)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 19:22:06.231 SEVERE [http-nio-8080-exec-33] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found] with root cause
+	jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:401)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:369)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:560)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:499)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:994)
+		at org.apache.jsp.Login.login_jsp._jspService(login_jsp.java:124)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 19:23:08.109 SEVERE [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:401)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:369)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:560)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:499)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:994)
+		at org.apache.jsp.Login.login_jsp._jspService(login_jsp.java:124)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 19:23:08.109 SEVERE [http-nio-8080-exec-39] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found] with root cause
+	jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:401)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:369)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:560)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:499)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:994)
+		at org.apache.jsp.Login.login_jsp._jspService(login_jsp.java:124)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 19:23:08.310 SEVERE [http-nio-8080-exec-40] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:401)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:369)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:560)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:499)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:994)
+		at org.apache.jsp.Login.login_jsp._jspService(login_jsp.java:124)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 19:23:08.310 SEVERE [http-nio-8080-exec-40] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found] with root cause
+	jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:401)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:369)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:560)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:499)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:994)
+		at org.apache.jsp.Login.login_jsp._jspService(login_jsp.java:124)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 19:23:08.582 SEVERE [http-nio-8080-exec-41] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:401)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:369)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:560)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:499)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:994)
+		at org.apache.jsp.Login.login_jsp._jspService(login_jsp.java:124)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 19:23:08.582 SEVERE [http-nio-8080-exec-41] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found] with root cause
+	jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:401)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:369)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:560)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:499)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:994)
+		at org.apache.jsp.Login.login_jsp._jspService(login_jsp.java:124)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 19:23:44.344 SEVERE [http-nio-8080-exec-42] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:401)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:369)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:560)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:499)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:994)
+		at org.apache.jsp.Login.login_jsp._jspService(login_jsp.java:125)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 19:23:44.344 SEVERE [http-nio-8080-exec-42] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found] with root cause
+	jakarta.servlet.ServletException: JSP file [&#47;Login&#47;Includes&#47;head.jsp] not found
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:401)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:369)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:560)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:499)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:994)
+		at org.apache.jsp.Login.login_jsp._jspService(login_jsp.java:125)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 19:36:28.605 SEVERE [http-nio-8080-exec-62] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../index.jsp");
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../index.jsp");
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../index.jsp");
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../index.jsp");
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 19:48:12.905 SEVERE [http-nio-8080-exec-64] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setNome(request.getParameter("nome"));
+18:                 usuario.setEmail(request.getParameter("email"));
+
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setNome(request.getParameter("nome"));
+18:                 usuario.setEmail(request.getParameter("email"));
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setNome(request.getParameter("nome"));
+18:                 usuario.setEmail(request.getParameter("email"));
+
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setNome(request.getParameter("nome"));
+18:                 usuario.setEmail(request.getParameter("email"));
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 19:48:15.605 SEVERE [http-nio-8080-exec-68] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.Login.cadastroAction_jsp] with root cause
+	java.lang.ClassNotFoundException: org.apache.jsp.Login.cadastroAction_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:129)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:58)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:159)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:192)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:413)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 19:50:11.803 SEVERE [http-nio-8080-exec-64] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 19:52:27.780 SEVERE [http-nio-8080-exec-62] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [17] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.check.login resolves to a package
+
+An error occurred at line: [19] in the jsp file: [/Login/loginAction.jsp]
+login cannot be resolved to a type
+16:                 String nome = request.getParameter("email");
+17:                 String email = request.getParameter("senha");
+18:                 
+19:                 login check = new login();
+20:                 if (check.checkLogin(nome, email)) {
+21:                     response.sendRedirect("../index.jsp");
+22:                 }
+
+
+An error occurred at line: [19] in the jsp file: [/Login/loginAction.jsp]
+login cannot be resolved to a type
+16:                 String nome = request.getParameter("email");
+17:                 String email = request.getParameter("senha");
+18:                 
+19:                 login check = new login();
+20:                 if (check.checkLogin(nome, email)) {
+21:                     response.sendRedirect("../index.jsp");
+22:                 }
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [17] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.check.login resolves to a package
+
+An error occurred at line: [19] in the jsp file: [/Login/loginAction.jsp]
+login cannot be resolved to a type
+16:                 String nome = request.getParameter("email");
+17:                 String email = request.getParameter("senha");
+18:                 
+19:                 login check = new login();
+20:                 if (check.checkLogin(nome, email)) {
+21:                     response.sendRedirect("../index.jsp");
+22:                 }
+
+
+An error occurred at line: [19] in the jsp file: [/Login/loginAction.jsp]
+login cannot be resolved to a type
+16:                 String nome = request.getParameter("email");
+17:                 String email = request.getParameter("senha");
+18:                 
+19:                 login check = new login();
+20:                 if (check.checkLogin(nome, email)) {
+21:                     response.sendRedirect("../index.jsp");
+22:                 }
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 19:58:21.288 SEVERE [http-nio-8080-exec-64] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [17] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.check.login resolves to a package
+
+An error occurred at line: [19] in the jsp file: [/Login/loginAction.jsp]
+login cannot be resolved to a type
+16:                 String nome = request.getParameter("email");
+17:                 String email = request.getParameter("senha");
+18:                 
+19:                 login check = new login();
+20:                 if (check.checkLogin(nome, email)) {
+21:                     response.sendRedirect("../index.jsp");
+22:                 }
+
+
+An error occurred at line: [19] in the jsp file: [/Login/loginAction.jsp]
+login cannot be resolved to a type
+16:                 String nome = request.getParameter("email");
+17:                 String email = request.getParameter("senha");
+18:                 
+19:                 login check = new login();
+20:                 if (check.checkLogin(nome, email)) {
+21:                     response.sendRedirect("../index.jsp");
+22:                 }
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [17] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.check.login resolves to a package
+
+An error occurred at line: [19] in the jsp file: [/Login/loginAction.jsp]
+login cannot be resolved to a type
+16:                 String nome = request.getParameter("email");
+17:                 String email = request.getParameter("senha");
+18:                 
+19:                 login check = new login();
+20:                 if (check.checkLogin(nome, email)) {
+21:                     response.sendRedirect("../index.jsp");
+22:                 }
+
+
+An error occurred at line: [19] in the jsp file: [/Login/loginAction.jsp]
+login cannot be resolved to a type
+16:                 String nome = request.getParameter("email");
+17:                 String email = request.getParameter("senha");
+18:                 
+19:                 login check = new login();
+20:                 if (check.checkLogin(nome, email)) {
+21:                     response.sendRedirect("../index.jsp");
+22:                 }
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 20:02:22.320 SEVERE [http-nio-8080-exec-62] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [17] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.check.login resolves to a package
+
+An error occurred at line: [19] in the jsp file: [/Login/loginAction.jsp]
+login cannot be resolved to a type
+16:                 String nome = request.getParameter("email");
+17:                 String email = request.getParameter("senha");
+18:                 
+19:                 login check = new login();
+20:                 if (check.checkLogin(nome, email)) {
+21:                     response.sendRedirect("../index.jsp");
+22:                 }
+
+
+An error occurred at line: [19] in the jsp file: [/Login/loginAction.jsp]
+login cannot be resolved to a type
+16:                 String nome = request.getParameter("email");
+17:                 String email = request.getParameter("senha");
+18:                 
+19:                 login check = new login();
+20:                 if (check.checkLogin(nome, email)) {
+21:                     response.sendRedirect("../index.jsp");
+22:                 }
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [17] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.check.login resolves to a package
+
+An error occurred at line: [19] in the jsp file: [/Login/loginAction.jsp]
+login cannot be resolved to a type
+16:                 String nome = request.getParameter("email");
+17:                 String email = request.getParameter("senha");
+18:                 
+19:                 login check = new login();
+20:                 if (check.checkLogin(nome, email)) {
+21:                     response.sendRedirect("../index.jsp");
+22:                 }
+
+
+An error occurred at line: [19] in the jsp file: [/Login/loginAction.jsp]
+login cannot be resolved to a type
+16:                 String nome = request.getParameter("email");
+17:                 String email = request.getParameter("senha");
+18:                 
+19:                 login check = new login();
+20:                 if (check.checkLogin(nome, email)) {
+21:                     response.sendRedirect("../index.jsp");
+22:                 }
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 20:02:42.477 SEVERE [http-nio-8080-exec-63] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [17] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.check.login resolves to a package
+
+An error occurred at line: [19] in the jsp file: [/Login/loginAction.jsp]
+login cannot be resolved to a type
+16:                 String nome = request.getParameter("email");
+17:                 String email = request.getParameter("senha");
+18:                 
+19:                 login check = new login();
+20:                 if (check.checkLogin(nome, email)) {
+21:                     response.sendRedirect("../index.jsp");
+22:                 }
+
+
+An error occurred at line: [19] in the jsp file: [/Login/loginAction.jsp]
+login cannot be resolved to a type
+16:                 String nome = request.getParameter("email");
+17:                 String email = request.getParameter("senha");
+18:                 
+19:                 login check = new login();
+20:                 if (check.checkLogin(nome, email)) {
+21:                     response.sendRedirect("../index.jsp");
+22:                 }
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [17] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.check.login resolves to a package
+
+An error occurred at line: [19] in the jsp file: [/Login/loginAction.jsp]
+login cannot be resolved to a type
+16:                 String nome = request.getParameter("email");
+17:                 String email = request.getParameter("senha");
+18:                 
+19:                 login check = new login();
+20:                 if (check.checkLogin(nome, email)) {
+21:                     response.sendRedirect("../index.jsp");
+22:                 }
+
+
+An error occurred at line: [19] in the jsp file: [/Login/loginAction.jsp]
+login cannot be resolved to a type
+16:                 String nome = request.getParameter("email");
+17:                 String email = request.getParameter("senha");
+18:                 
+19:                 login check = new login();
+20:                 if (check.checkLogin(nome, email)) {
+21:                     response.sendRedirect("../index.jsp");
+22:                 }
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 20:08:12.829 SEVERE [http-nio-8080-exec-62] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [17] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.site.check.login resolves to a package
+
+An error occurred at line: [19] in the jsp file: [/Login/loginAction.jsp]
+login cannot be resolved to a type
+16:                 String nome = request.getParameter("email");
+17:                 String email = request.getParameter("senha");
+18:                 
+19:                 login check = new login();
+20:                 if (check.checkLogin(nome, email)) {
+21:                     response.sendRedirect("../index.jsp");
+22:                 }
+
+
+An error occurred at line: [19] in the jsp file: [/Login/loginAction.jsp]
+login cannot be resolved to a type
+16:                 String nome = request.getParameter("email");
+17:                 String email = request.getParameter("senha");
+18:                 
+19:                 login check = new login();
+20:                 if (check.checkLogin(nome, email)) {
+21:                     response.sendRedirect("../index.jsp");
+22:                 }
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [17] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.site.check.login resolves to a package
+
+An error occurred at line: [19] in the jsp file: [/Login/loginAction.jsp]
+login cannot be resolved to a type
+16:                 String nome = request.getParameter("email");
+17:                 String email = request.getParameter("senha");
+18:                 
+19:                 login check = new login();
+20:                 if (check.checkLogin(nome, email)) {
+21:                     response.sendRedirect("../index.jsp");
+22:                 }
+
+
+An error occurred at line: [19] in the jsp file: [/Login/loginAction.jsp]
+login cannot be resolved to a type
+16:                 String nome = request.getParameter("email");
+17:                 String email = request.getParameter("senha");
+18:                 
+19:                 login check = new login();
+20:                 if (check.checkLogin(nome, email)) {
+21:                     response.sendRedirect("../index.jsp");
+22:                 }
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 20:10:38.937 SEVERE [http-nio-8080-exec-63] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 20:13:33.910 SEVERE [http-nio-8080-exec-76] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\loginAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 20:17:50.666 SEVERE [http-nio-8080-exec-72] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 20:19:12.848 SEVERE [http-nio-8080-exec-79] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 20:19:29.074 SEVERE [http-nio-8080-exec-78] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 20:19:47.672 SEVERE [http-nio-8080-exec-75] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 20:20:30.040 SEVERE [http-nio-8080-exec-78] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+An error occurred at line: [22] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+19:                
+20:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+21:                 
+22:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+23:                 usuarioDAO.CadastrarUsuario(usuario);
+24:                 
+25:                 response.sendRedirect("../login.jsp");
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 20:32:19.466 SEVERE [http-nio-8080-exec-70] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [21] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+19:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+20:                 
+21:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+22:                 //usuarioDAO.CadastrarUsuario(usuario);
+23:                 
+24:                 response.sendRedirect("../login.jsp");
+
+
+An error occurred at line: [21] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+19:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+20:                 
+21:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+22:                 //usuarioDAO.CadastrarUsuario(usuario);
+23:                 
+24:                 response.sendRedirect("../login.jsp");
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DAO.UsuarioDAO resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Login\cadastroAction_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuario resolves to a package
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [15] in the jsp file: [/Login/cadastroAction.jsp]
+Usuario cannot be resolved to a type
+12:     <body>
+13:         <%
+14:             try {
+15:                 Usuario usuario = new Usuario();
+16:                 
+17:                 usuario.setUsuarioNome(request.getParameter("nome"));
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+
+
+An error occurred at line: [21] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+19:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+20:                 
+21:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+22:                 //usuarioDAO.CadastrarUsuario(usuario);
+23:                 
+24:                 response.sendRedirect("../login.jsp");
+
+
+An error occurred at line: [21] in the jsp file: [/Login/cadastroAction.jsp]
+UsuarioDAO cannot be resolved to a type
+18:                 usuario.setUsuarioEmail(request.getParameter("email"));
+19:                 usuario.setUsuarioSenha(request.getParameter("senha"));
+20:                 
+21:                 UsuarioDAO usuarioDAO = new UsuarioDAO();
+22:                 //usuarioDAO.CadastrarUsuario(usuario);
+23:                 
+24:                 response.sendRedirect("../login.jsp");
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 21:01:40.037 SEVERE [http-nio-8080-exec-108] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [An exception occurred processing [/index.jsp] at line [9]
+
+6: 
+7: <html>
+8: 
+9:     <jsp:include page="../Includes/head.jsp"></jsp:include>
+10:     <body>
+11:     <jsp:include page="../Includes/navbar.jsp">
+12:         <jsp:param name="title" value="Login" />
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException: Cannot invoke "jakarta.servlet.RequestDispatcher.include(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)" because "rd" is null
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:994)
+		at org.apache.jsp.index_jsp._jspService(index_jsp.java:125)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 21:28:48.186 SEVERE [http-nio-8080-exec-133] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Estoque] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [1] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Usuarios\listarUsuarios_jsp.java]
+The type br.com.estoque.DTO.Usuarios cannot be resolved. It is indirectly referenced from required .class files
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Usuarios\listarUsuarios_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuarios resolves to a package
+
+An error occurred at line: [33] in the jsp file: [/Usuarios/listarUsuarios.jsp]
+Usuarios cannot be resolved to a type
+30:                         <%                                                    
+31:                             try {
+32:                                 UsuariosDAO usuarioDAO = new UsuariosDAO();
+33:                                 ArrayList<Usuarios> lista = usuariosDAO.PesquisarUsuarios();
+34:                                 
+35:                                 for(int i = 0; i < lista.size(); i++){
+36:                                 
+
+
+An error occurred at line: [33] in the jsp file: [/Usuarios/listarUsuarios.jsp]
+usuariosDAO cannot be resolved
+30:                         <%                                                    
+31:                             try {
+32:                                 UsuariosDAO usuarioDAO = new UsuariosDAO();
+33:                                 ArrayList<Usuarios> lista = usuariosDAO.PesquisarUsuarios();
+34:                                 
+35:                                 for(int i = 0; i < lista.size(); i++){
+36:                                 
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [1] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Usuarios\listarUsuarios_jsp.java]
+The type br.com.estoque.DTO.Usuarios cannot be resolved. It is indirectly referenced from required .class files
+
+An error occurred at line: [15] in the generated java file: [C:\Users\51127512021.2\Downloads\apache-tomcat-10.0.27\apache-tomcat-10.0.27\work\Catalina\localhost\Estoque\org\apache\jsp\Usuarios\listarUsuarios_jsp.java]
+Only a type can be imported. br.com.estoque.DTO.Usuarios resolves to a package
+
+An error occurred at line: [33] in the jsp file: [/Usuarios/listarUsuarios.jsp]
+Usuarios cannot be resolved to a type
+30:                         <%                                                    
+31:                             try {
+32:                                 UsuariosDAO usuarioDAO = new UsuariosDAO();
+33:                                 ArrayList<Usuarios> lista = usuariosDAO.PesquisarUsuarios();
+34:                                 
+35:                                 for(int i = 0; i < lista.size(); i++){
+36:                                 
+
+
+An error occurred at line: [33] in the jsp file: [/Usuarios/listarUsuarios.jsp]
+usuariosDAO cannot be resolved
+30:                         <%                                                    
+31:                             try {
+32:                                 UsuariosDAO usuarioDAO = new UsuariosDAO();
+33:                                 ArrayList<Usuarios> lista = usuariosDAO.PesquisarUsuarios();
+34:                                 
+35:                                 for(int i = 0; i < lista.size(); i++){
+36:                                 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Mar-2023 21:35:12.320 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+07-Mar-2023 21:35:12.320 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
